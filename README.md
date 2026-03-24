@@ -1,17 +1,31 @@
-# habit_mastery_league
+# 🌱 HabitFlow
 
-A new Flutter project.
+Offline-first habit tracker for students. No accounts, no cloud — all data stored locally with SQLite + SharedPreferences.
 
-## Getting Started
+## Quick Start
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Screens
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Screen | Description |
+|---|---|
+| Home | Today's habits, progress banner, coach tips |
+| Habit List | Search, filter by category, view all habits |
+| Habit Detail | Stats, 28-day heatmap, check-in history |
+| Add / Edit | Form with emoji picker, colors, frequency |
+| Progress | Overview stats, weekly missions, badges |
+| Settings | Dark mode, reminder time, tips toggle |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Coach Rules
+
+- Missed 3+ times in 7 days → suggest lowering goal
+- Streak ≥ 10 days → suggest a harder challenge
+- Mostly weekday check-ins → suggest weekdays-only mode
+
+## Stack
+
+Flutter · Dart · sqflite · shared_preferences · path_provider · intl
