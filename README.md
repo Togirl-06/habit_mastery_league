@@ -1,4 +1,4 @@
-# 🌱 HabitFlow
+# HabitFlow
 
 Offline-first habit tracker for students. No accounts, no cloud — all data stored locally with SQLite + SharedPreferences.
 
